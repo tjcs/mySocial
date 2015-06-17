@@ -1,0 +1,9 @@
+{
+  "firebase": "dazzling-torch-8834",
+  "public": "/Users/smyth/mySocial/www",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

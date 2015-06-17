@@ -1,0 +1,1 @@
+Testing ionic + firebase

@@ -1,0 +1,70 @@
+<ion-view view-title="Apply">
+    <ion-content has-header="true" padding="true">
+
+<style>
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+</style>
+
+    <h1>Apply for a Loan</h1>
+
+<h4>How much do you need to borrow?</h4>
+
+<div class="item range range-positive">
+  <i class="icon ion-social-usd-outline"></i>
+  <input type="range" name="volume" min="0" max="10000" ng-model="rangeValue" ng-change="drag(rangeValue)">
+  <i class="icon ion-social-usd"></i>
+</div>
+
+<h4>{{rangeValue}} Pesos</h4>
+
+<br>
+
+<h4>Please tell us a little about yourself</h4>
+
+<ul class="list">
+
+  <li class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox">
+     </label>
+     I own a business
+  </li>
+
+  <li class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox">
+     </label>
+     I am employed
+  </li>
+
+  <li class="item item-checkbox">
+     <label class="checkbox">
+       <input type="checkbox">
+     </label>
+     I am unemployed/retired
+  </li>
+
+</ul>
+
+
+<!--- button that sends you to the next application screen-->
+<button class="button button-large button-full button-balanced" ui-sref="apply2">
+  Next
+</button>
+
+  </ion-content>
+</ion-view>

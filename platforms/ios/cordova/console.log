@@ -1,0 +1,14 @@
+2015-06-15 11:53:29.091 social-auth[3957:93533] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/smyth/Library/Developer/CoreSimulator/Devices/51FBF618-78F3-4F75-B093-C9CAC6130B60/data/Containers/Data/Application/7BF03EC8-484C-4C44-ADA3-F8C053AB3BF2/Library/Cookies/Cookies.binarycookies
+2015-06-15 11:53:29.953 social-auth[3957:93533] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-15 11:53:29.955 social-auth[3957:93533] Multi-tasking -> Device: YES, App: YES
+2015-06-15 11:53:29.982 social-auth[3957:93533] Unlimited access to network resources
+2015-06-15 11:53:30.525 social-auth[3957:93533] [CDVTimer][keyboard] 0.613987ms
+2015-06-15 11:53:30.525 social-auth[3957:93533] [CDVTimer][TotalPluginStartup] 3.274977ms
+2015-06-15 11:53:31.458 social-auth[3957:93533] Resetting plugins due to page load.
+2015-06-15 11:53:31.976 social-auth[3957:93533] Finished load of: file:///Users/smyth/Library/Developer/CoreSimulator/Devices/51FBF618-78F3-4F75-B093-C9CAC6130B60/data/Containers/Bundle/Application/E424DF01-F5BE-491C-B04D-E09AC4241DD1/social-auth.app/www/index.html
+2015-06-15 11:53:43.854 social-auth[3957:93533] Setting the WebView's frame to {{0, 0}, {375, 623}}
+2015-06-15 11:53:43.901 social-auth[3957:93533] THREAD WARNING: ['InAppBrowser'] took '339.971191' ms. Plugin should use a background thread.
+2015-06-15 11:53:44.286 social-auth[3957:93533] Error in Success callbackId: InAppBrowser1596384878 : TypeError: null is not an object (evaluating 'event.type')
+2015-06-15 11:54:10.946 social-auth[3957:93533] Error logging user in:  Error: FirebaseSimpleLogin: User cancelled the authentication request.
+2015-06-15 11:55:43.889 social-auth[3957:93533] IAB.close() called but it was already closed.
+2015-06-15 11:55:43.910 social-auth[3957:93533] THREAD WARNING: ['InAppBrowser'] took '25.032959' ms. Plugin should use a background thread.
