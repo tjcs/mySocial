@@ -19,12 +19,20 @@ angular.module('com.htmlxprs.socialAuth.controllers',[]).controller('LoginContro
 }])
 
 
-// THIS FUCKS EVERYTHING UP - why?
+// THIS PART IS WHAT IS NOT WORKING
 
 .controller("ApplyController", function($scope, $firebaseObject) {
 	$scope.rangeValue = undefined;
 
   var ref = new Firebase("https://dazzling-torch-8834.firebaseio.com/");
+
+ref.authAnonymously(function(error, authData) {
+  if (error) {
+    console.log("Login Failed!", error);
+  } else {
+    console.log("Authenticated successfully with payload:", authData);
+  }
+});
 
 	$scope.addValue = function(newValue){
 		console.log(newValue);
